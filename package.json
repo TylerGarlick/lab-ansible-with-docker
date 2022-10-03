@@ -1,19 +1,11 @@
 {
-  "name": "template-lab",
+  "name": "lab-ansible-with-docker",
   "version": "1.0.0",
   "description": "## Notes",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "start": "npm run mdx:start",
-    "mdx:build": "npx mdx-deck build overview.mdx",
-    "mdx:start": "npx mdx-deck overview.mdx --port 9999"
-  },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "mdx-deck": "^4.1.1"
-  }
+  "license": "ISC"
 }
